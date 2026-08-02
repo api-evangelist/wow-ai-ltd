@@ -1,0 +1,26 @@
+# WOW AI
+
+> WOW AI (Wow AI LTD., getwow.ai) is a smart e-commerce assistant for store owners in the Middle East and beyond. It connects to stores on Salla and Shopify, analyzes sales, customer, and product data, and delivers daily insights, ready-made recommendations, smart promotional offers, inventory and pricing alerts, and an AI chat assistant that understands Arabic and English. Backed by 500 Global. No public developer API is published as of 2026-07-21; the api.getwow.ai backend is private/undocumented.
+
+## Company
+
+- [Website](https://getwow.ai/en): Landing page with sign-up for the WOW AI e-commerce assistant
+- [Onboarding](https://getwow.ai/en/onboarding): Start free trial / sign up and connect a Salla or Shopify store
+- [FAQ](https://getwow.ai/en/faq): What WOW AI does, supported platforms (Salla, Shopify), pricing model, data security
+- [Contact Us](https://getwow.ai/en/contact-us): Support contact
+- [Brand assets](https://getwow.ai/en/brand): Logo and brand asset index
+
+## Legal
+
+- [Privacy Policy](https://getwow.ai/en/privacy)
+- [Terms & Conditions](https://getwow.ai/en/terms-conditions)
+- [Data Deletion](https://getwow.ai/en/data-deletion)
+
+## Code
+
+- [GitHub organization](https://github.com/getwowai): WOW AI public repos, including an open-source Salla Airbyte connector (salla-airbyte-connector) and a fork of Fivetran's dbt_shopify package
+
+## API Evangelist profile
+
+- [APIs.json](https://raw.githubusercontent.com/api-evangelist/wow-ai-ltd/refs/heads/main/apis.yml): Machine-readable profile of Wow AI LTD. in the API Evangelist network
+- [Domain security probe](https://raw.githubusercontent.com/api-evangelist/wow-ai-ltd/refs/heads/main/security/wow-ai-ltd-domain-security.yml): TLS/DNS posture for getwow.ai

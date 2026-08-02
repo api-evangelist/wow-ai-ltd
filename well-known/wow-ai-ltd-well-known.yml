@@ -1,0 +1,31 @@
+generated: '2026-07-21'
+method: searched
+source: live HTTP probes of getwow.ai and api.getwow.ai
+hosts:
+- host: https://getwow.ai
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /llms.txt
+    status: 404
+- host: https://api.getwow.ai
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+notes: >-
+  No /.well-known/ discovery documents are published on either the website host
+  or the api.getwow.ai backend host as of the probe date. api.getwow.ai answers
+  200 on / and /health (service "wowback", Express) but publishes no OpenAPI,
+  Swagger, GraphQL, or docs endpoints (all probed paths returned 404). Absence
+  recorded as valid probe data; no WellKnown pointer is wired because nothing
+  is present.
