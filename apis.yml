@@ -22,7 +22,7 @@ accessModel:
   generated: '2026-07-22'
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wow-ai-ltd.png
-name: Wow AI LTD.
+name: WOW AI
 description: Wow AI LTD. is a company surfaced as a portfolio company of 500-global and added to the API
   Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
 url: https://raw.githubusercontent.com/api-evangelist/wow-ai-ltd/refs/heads/main/apis.yml
@@ -48,3 +48,4 @@ common:
   url: security/wow-ai-ltd-domain-security.yml
 - type: Website
   url: https://getwow.ai
+x-legal-name: Wow AI LTD.
